@@ -3,8 +3,8 @@ function compute()
     var principal = document.getElementById("principal").value;
     if (principal <= 0)
     {
-        alert("Enter a positive number");
         document.getElementById("result").innerHTML = "";
+        alert("Enter a positive number");
         document.getElementById("principal").focus();
         return;
     }
